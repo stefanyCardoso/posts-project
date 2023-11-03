@@ -1,1 +1,18 @@
 teste de aquivo
+
+ ssh-keygen -t rsa -C "stefanycoliveira20@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/stefa/.ssh/id_rsa)
+
+ eval "$(ssh-agent -s)"
+
+ ssh-add /c/Users/stefa/.ssh/id_rsa
+
+
+ git init
+ git config --global user.name "stefany cardoso"
+git config --global user.email "stefanycoliveira20@gmail.com"
+ git remote add origin git@github.com:stefanyCardoso/posts-project.git
+ git add .
+git commit -m 'initial commit'
+git push origin master
