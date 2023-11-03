@@ -1,0 +1,27 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.div-input {
+  height: 100px;
+  padding: 30px;
+}
+
+.h1-text {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.p-text {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-container {
+  min-height: 60px;
+  display: flex;
+  align-items: flex-end;
+}
